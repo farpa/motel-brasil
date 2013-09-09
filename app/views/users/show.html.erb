@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Username:</b>
+  <%= @user.username %>
+</p>
+
+<p>
+  <b>Motel name:</b>
+  <%= @user.motel_name %>
+</p>
+
+<p>
+  <b>Motel fone:</b>
+  <%= @user.motel_fone %>
+</p>
+
+<p>
+  <b>Motel add 1:</b>
+  <%= @user.motel_add_1 %>
+</p>
+
+<p>
+  <b>Motel add 2:</b>
+  <%= @user.motel_add_2 %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
